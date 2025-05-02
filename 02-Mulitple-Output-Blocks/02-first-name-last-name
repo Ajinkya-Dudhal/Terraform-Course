@@ -1,0 +1,16 @@
+output "first_block" {
+    value = "This is first block."
+}
+
+output "second_block" {
+    value = "This is second block."
+}
+
+#################### Output ####################
+ajinkya@hcl-rapid-platform:~$ terraform plan
+
+Changes to Outputs:
+  + first_block  = "This is first block."
+  + second_block = "This is second block."
+
+################################################
